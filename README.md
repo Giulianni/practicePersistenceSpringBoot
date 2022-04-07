@@ -1,6 +1,7 @@
 ## Persistence Spring Boot - Practice 
 
 - [Consigna](https://github.com/Giulianni/practicePersistenceSpringBoot/files/8446554/Practica.Springboot.-.persistencia.pdf)
+*Utilicé relación m-n entre User y Role
 
 # Tecnologias
 - Java
