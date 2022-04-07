@@ -1,7 +1,8 @@
 ## Persistence Spring Boot - Practice 
 
 - [Consigna](https://github.com/Giulianni/practicePersistenceSpringBoot/files/8446554/Practica.Springboot.-.persistencia.pdf)
-*Utilicé relación m-n entre User y Role
+
+`Utilicé relación m-n entre User y Role`
 
 # Tecnologias
 - Java
@@ -34,16 +35,16 @@ persistence
 └─── pom.xml 
 ```
 
-3)Ejecutar en la terminal: 
+3) Ejecutar en la terminal: 
 ```
 cd persistence
 mvn clean install
 ```
 
 4) Run -> PracticeSpringBootPersistenceApplication
-*La app empezará a correr en el puerto 8092.
+`*La app empezará a correr en el puerto 8092.`
  
- 6) Si deseas cambiar el puerto dónde corre la aplicación, deberás cambiar la configuración
+ 5) Si deseas cambiar el puerto dónde corre la aplicación, deberás cambiar la configuración
  en el archivo 'application.properties'. Si deseas correrlo en el puerto 8080 podés simplemente borrar la propiedad
  y la app correrá en este puerte por default. 
 
