@@ -20,7 +20,7 @@
 3. [MySql](https://dev.mysql.com/downloads/workbench/)
 4. [Postman](https://www.postman.com/downloads/)
 
-# Instrucciones
+# Instrucciones run app
 Projecto runs in Port = 8092
 
 1) Clonar proyecto 
@@ -47,6 +47,28 @@ mvn clean install
  5) Si deseas cambiar el puerto dónde corre la aplicación, deberás cambiar la configuración
  en el archivo 'application.properties'. Si deseas correrlo en el puerto 8080 podés simplemente borrar la propiedad
  y la app correrá en este puerte por default. 
+ 
+ # Instrucciones conectarse a MySQL Workbench al hosting gratuito
+ 
+ 1) Click '+' to Setup New Connection con info que provee 'freeMySQLHosting'. Te lo envian por email
+ - ![info sended](https://user-images.githubusercontent.com/81278103/162330891-ef0ae964-06f9-4c37-8811-41bb04d1234a.png)
+ - ![Workbench Form to conection](https://user-images.githubusercontent.com/81278103/162330981-83d44ee3-5765-4cca-a73f-8ba82f6bc480.png)
+ 
+ 2) Configurar nombre del Schema en 'application.properties'
+ - Name = Nombre Schema -> configurarlo en la url
+ - ![url appliction.properties](https://user-images.githubusercontent.com/81278103/162331998-68edbd4a-2064-4073-85b7-0e261904570d.png)
+ 
+ 2.1) Complete la información
+ - Hostname = Server
+ - Port = Port Number
+ - Username = Username
+ - Password -> Store in Vault = Password
+ 
+ 3) Click 'Test Connection'
+ 
+ 4) Al correr la app, en el motor, deberías ver las tablas creadas. En 'application.properties' podés utilizar diferentes configs para la creacion y persistencia de ls datos en la tabla:
+ - https://spring.io/guides/gs/accessing-data-mysql/
+ 
 
 # Estructuras Proyecto 
 
