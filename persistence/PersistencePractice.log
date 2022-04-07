@@ -1,0 +1,37 @@
+[http-nio-8092-exec-2] INFO  com.practice.persistencepractice.controller.UserController  - Ingresando el siguiente usuario a la base de datos: 
+Pepa
+[http-nio-8092-exec-2] INFO  com.practice.persistencepractice.controller.UserController  - Usuario com.practice.persistencepractice.dto.login.UserDto@794759d8 fue creado con exito.
+[http-nio-8092-exec-3] INFO  com.practice.persistencepractice.controller.UserController  - Loading user: 
+null
+[http-nio-8092-exec-3] INFO  com.practice.persistencepractice.controller.UserController  - Usuario {"arbolMenu":{"Listar":[],"Informes":[com.practice.persistencepractice.dto.MenuDto@5b04ffe],"Usuarios":[com.practice.persistencepractice.dto.MenuDto@bced69c,com.practice.persistencepractice.dto.MenuDto@1ee27ea6],"Logout":[],"Seguridad":[],"Crear nuevo":[],"Editar":[],"Mi sistema":[com.practice.persistencepractice.dto.MenuDto@5fa6a53a,com.practice.persistencepractice.dto.MenuDto@58eede8f,com.practice.persistencepractice.dto.MenuDto@25698938],"Cuenta":[com.practice.persistencepractice.dto.MenuDto@28f3d47d,com.practice.persistencepractice.dto.MenuDto@42163b2c,com.practice.persistencepractice.dto.MenuDto@6ca29f47],"Mensual":[]},"user":com.practice.persistencepractice.dto.login.UserDto@5ebfba2} ingresó con exito.
+[http-nio-8092-exec-6] INFO  com.practice.persistencepractice.controller.UserController  - Ingresando el siguiente usuario a la base de datos: 
+Pepa
+[http-nio-8092-exec-6] DEBUG com.practice.persistencepractice.exceptions.GlobalExceptions  - El usuario con email: pepa@email.com ya existe en la base de datos
+[http-nio-8092-exec-8] ERROR com.practice.persistencepractice.exceptions.GlobalExceptions  - Se produjo un error'. 
+JSON parse error: Cannot deserialize value of type `com.practice.persistencepractice.dto.login.UserDto` from Array value (token `JsonToken.START_ARRAY`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.practice.persistencepractice.dto.login.UserDto` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 1]
+ Web Request: 
+*Parameter name:org.springframework.util.CollectionUtils$EnumerationIterator@6401e984
+[http-nio-8092-exec-2] ERROR com.practice.persistencepractice.exceptions.GlobalExceptions  - Se produjo un error'. 
+JSON parse error: Cannot deserialize value of type `com.practice.persistencepractice.dto.login.UserDto` from Array value (token `JsonToken.START_ARRAY`); nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `com.practice.persistencepractice.dto.login.UserDto` from Array value (token `JsonToken.START_ARRAY`)
+ at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 1, column: 1]
+ Web Request: 
+*Parameter name:org.springframework.util.CollectionUtils$EnumerationIterator@28d2d145
+[http-nio-8092-exec-4] INFO  com.practice.persistencepractice.controller.UserController  - Ingresando el siguiente usuario a la base de datos: 
+Pepa
+[http-nio-8092-exec-4] INFO  com.practice.persistencepractice.controller.UserController  - Usuario com.practice.persistencepractice.dto.login.UserDto@322e3802 fue creado con exito.
+[http-nio-8092-exec-5] INFO  com.practice.persistencepractice.controller.UserController  - Ingresando el siguiente usuario a la base de datos: 
+Pipo
+[http-nio-8092-exec-5] INFO  com.practice.persistencepractice.controller.UserController  - Usuario com.practice.persistencepractice.dto.login.UserDto@2c8a497e fue creado con exito.
+[http-nio-8092-exec-6] INFO  com.practice.persistencepractice.controller.UserController  - Ingresando el siguiente usuario a la base de datos: 
+Pepe
+[http-nio-8092-exec-6] INFO  com.practice.persistencepractice.controller.UserController  - Usuario com.practice.persistencepractice.dto.login.UserDto@17603018 fue creado con exito.
+[http-nio-8092-exec-7] INFO  com.practice.persistencepractice.controller.UserController  - Loading user: 
+null
+[http-nio-8092-exec-7] DEBUG com.practice.persistencepractice.exceptions.GlobalExceptions  - Password incorrecto
+[http-nio-8092-exec-9] INFO  com.practice.persistencepractice.controller.UserController  - Loading user: 
+null
+[http-nio-8092-exec-9] INFO  com.practice.persistencepractice.controller.UserController  - Usuario {"arbolMenu":{"Logout":[],"Editar":[],"Mi sistema":[com.practice.persistencepractice.dto.MenuDto@5d11aef8],"Cuenta":[com.practice.persistencepractice.dto.MenuDto@59803dd0,com.practice.persistencepractice.dto.MenuDto@9c571df]},"user":com.practice.persistencepractice.dto.login.UserDto@78a8c23c} ingresó con exito.
+[http-nio-8092-exec-2] INFO  com.practice.persistencepractice.controller.UserController  - Loading user: 
+null
+[http-nio-8092-exec-2] INFO  com.practice.persistencepractice.controller.UserController  - Usuario {"arbolMenu":{"Reporte 1":[],"Informes":[com.practice.persistencepractice.dto.MenuDto@5492f396,com.practice.persistencepractice.dto.MenuDto@23cd0136],"Anual":[],"Usuarios":[com.practice.persistencepractice.dto.MenuDto@1dd3d750],"Reporte 3":[],"Reporte":[com.practice.persistencepractice.dto.MenuDto@314960fc,com.practice.persistencepractice.dto.MenuDto@72042b00],"Mensual":[]},"user":com.practice.persistencepractice.dto.login.UserDto@390b50c7} ingresó con exito.
